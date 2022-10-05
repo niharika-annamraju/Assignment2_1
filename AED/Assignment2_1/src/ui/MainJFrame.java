@@ -35,6 +35,11 @@ public class MainJFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jViewButton.setText("View");
+        jViewButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jViewButtonActionPerformed(evt);
+            }
+        });
 
         jCreateButton.setText("Create");
         jCreateButton.addActionListener(new java.awt.event.ActionListener() {
@@ -97,6 +102,10 @@ public class MainJFrame extends javax.swing.JFrame {
         CreateJPanel createPanel = new CreateJPanel();
         splitPanel.setRightComponent(createPanel);
     }//GEN-LAST:event_jCreateButtonActionPerformed
+
+    private void jViewButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jViewButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jViewButtonActionPerformed
 
     /**
      * @param args the command line arguments
