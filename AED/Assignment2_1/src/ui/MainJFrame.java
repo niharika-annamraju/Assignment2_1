@@ -105,6 +105,8 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void jViewButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jViewButtonActionPerformed
         // TODO add your handling code here:
+        ViewJPanel viewPanel = new ViewJPanel();
+        splitPanel.setRightComponent(viewPanel);
     }//GEN-LAST:event_jViewButtonActionPerformed
 
     /**
